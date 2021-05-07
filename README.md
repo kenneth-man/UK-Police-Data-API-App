@@ -4,7 +4,7 @@ Focusing less on Styling and more on practicing writing concise asynchronous Jav
 - 'List of forces'
 - 'Street-level crimes'
 - 'Stop and searches by area'
-- 'Crime Categories;
+- 'Crime Categories'
 
 The users latitude, longitude and current date are used to fetch the data
 
