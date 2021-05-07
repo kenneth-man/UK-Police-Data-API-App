@@ -1,0 +1,116 @@
+/*boiler plate project set-up*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+/***************/
+main,
+.btn-cont,
+.info-box {
+    justify-content: space-evenly;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+}
+
+.btn-cont,
+.info-cont {
+    width: 85%;
+}
+
+.btn-cont {
+    height: max-content;
+}
+
+.info-cont,
+.info-box {
+    border: 1px solid rgb(161, 161, 161);
+}
+
+.info-cont,
+.info-box,
+button {
+    border-radius: 2px;
+}
+
+.info-cont {
+    height: 80%;
+    padding-top: 50px;
+    align-items: flex-start !important;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    overflow-y: auto; 
+}
+
+.info-box {
+    min-height: 200px;
+    width: 21%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color: #fbee73;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.3);
+}
+
+button,
+h1,
+h2 {
+    font-family: 'Heebo';
+    font-weight: 300;
+    text-align: center;
+}
+
+button {
+    outline: none;
+    border: none;
+    font-size: 18px;
+    height: max-content;
+    width: max-content;
+    padding: 5px 15px;
+    background-color: #135DD8;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+}
+
+button:active {
+    filter: brightness(80%);
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
